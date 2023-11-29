@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.line {
+    width: 50px;
+    border-bottom: 3px solid #0098FD;
+    margin: 0 auto;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > #headerLogo {
+    display: flex;
+    justify-content: space-around;
+}
+header > #title {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+header > #title > div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+header > #title > div > a {
+    color: black;
+    text-decoration: none;
+    line-height: 70px;
+    height: 70px;
+}
+header > #title > div:nth-child(1) > a {
+    color: #049DFF;
+    border-bottom: 3px solid #049DFF;
+}
+header > #title > div:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+header > #title > div > div {
+    padding: 10px;
+}
+header > #title > div > div:first-child {
+    border: 1px solid black;
+}
+#rotation {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#rotation > ul {
+    width: 300%;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    transition: 500ms;
+}
+#rotation > ul > li {
+    float: left;
+    width: 33.33333333333333333%;
+}
+#rotation > ul > li > img {
+    width: 100%;
+}
+#rotation > #bottom {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#rotation > #bottom > div {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: gray;
+    opacity: 0.5;
+}
+#rotation > #bottom > div:hover {
+    opacity: 0.8;
+}
+#rotation > .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+main > #welcome {
+    text-align: center;
+    margin-top: 20px;
+}
+main > #welcome > h2 {
+    line-height: 30px;
+}
+main > #welcome > .text {
+    margin-top: 20px;
+    color: #6C6C6C;
+}
+main > #welcome > .text > p {
+    line-height: 24px;
+    font-size: 12px;
+}
+main > #welcome > .icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+main > #welcome > .icon > div {
+    width: 220px;
+}
+main > #welcome > .icon > div > img {
+    margin-bottom: 20px;
+}
+main > #welcome > .icon > div > .context {
+    color: #6C6C6C;
+    font-size: 12px;
+    margin: 20px 0;
+}
+main > #production {
+    text-align: center;
+    margin-top: 20px;
+}
+main > #production > h2 {
+    line-height: 30px;
+}
+main > #production > .text {
+    margin-top: 20px;
+    color: #6C6C6C;
+}
+main > #production > .text > p {
+    line-height: 24px;
+    font-size: 12px;
+}
+main > #production > .pic {
+    width: 100vm;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+main > #production > .pic > img {
+    width: 21.5%;
+}
+main > #news {
+    text-align: center;
+    margin-top: 20px;
+}
+main > #news > h2 {
+    line-height: 30px;
+}
+main > #news > .text {
+    margin-top: 20px;
+    color: #6C6C6C;
+}
+main > #news > .text > p {
+    line-height: 24px;
+    font-size: 12px;
+}
+main > #news > .newsContext {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+main > #news > .newsContext > .newsLeft {
+    width: 500px;
+}
+main > #news > .newsContext > .newsRight {
+    width: 650px;
+    color: gray;
+    text-align: left;
+    font-size: 14px;
+}
+main > #news > .newsContext > .newsRight > ul > li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    margin-top: 15px;
+}
+main > #video {
+    text-align: center;
+    margin-top: 20px;
+}
+main > #video > h2 {
+    line-height: 30px;
+}
+main > #video > .text {
+    margin-top: 20px;
+    color: #6C6C6C;
+}
+main > #video > .text > p {
+    line-height: 24px;
+    font-size: 12px;
+}
+main > #video > .mp {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+footer {
+    background-color: #01A1FF;
+    color: white;
+}
+footer > #footerTop {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer > #footerTop > #footerLeft {
+    width: 750px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer > #footerTop > #footerLeft > div > .title {
+    font-size: 16px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+footer > #footerTop > #footerLeft > div > div {
+    font-size: 13px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+footer > #footerTop > #footerRight {
+    width: 350px;
+    margin: 50px 0;
+    font-size: 12px;
+    color: white;
+}
+footer > #footerTop > #footerRight > div {
+    width: 300px;
+    margin: 0 auto;
+}
+footer > #footerTop > #footerRight > .top {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+footer > #footerTop > #footerRight > .top > div {
+    height: 30px;
+    width: 140px;
+    border: 1px solid white;
+}
+footer > #footerTop > #footerRight > .mid {
+    width: 290px;
+    height: 130px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+footer > #footerTop > #footerRight > .bot {
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+footer > #footerBottom {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    font-family: "宋体";
+}

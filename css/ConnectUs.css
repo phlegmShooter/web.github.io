@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    width: 50px;
+    border-bottom: 3px solid #0098FD;
+    margin: 0 auto;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > #headerLogo {
+    display: flex;
+    justify-content: space-around;
+}
+header > #title {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+header > #title > div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+header > #title > div > a {
+    color: black;
+    text-decoration: none;
+    line-height: 70px;
+    height: 70px;
+}
+header > #title > div:nth-child(6) > a {
+    color: #049DFF;
+    border-bottom: 3px solid #049DFF;
+}
+header > #title > div:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+header > #title > div > div {
+    padding: 10px;
+}
+header > #title > div > div:first-child {
+    border: 1px solid black;
+}
+#rotation > img {
+    width: 100%;
+}
+main {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+main > #LeftNav > #connect {
+    width: 150px;
+    height: 300px;
+}
+main > #LeftNav > #connect > .title {
+    width: 100%;
+    height: 80px;
+    color: white;
+    border: 1px solid #01A1FF;
+    background-color: #01A1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > #LeftNav > #connect > .title > .aboutLine {
+    width: 30px;
+    border-bottom: 3px solid white;
+    margin: 5px 0;
+}
+main > #LeftNav > #connect > .title > p {
+    font-size: 12px;
+}
+main > #LeftNav > #connect > .contain {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #01A1FF;
+    color: #01A1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > #LeftNav > #connect > .contain > p {
+    font-size: 12px;
+    cursor: pointer;
+}
+main > #LeftNav > #connect > .contain > p:nth-child(1) {
+    font-weight: bolder;
+}
+main > #LeftNav > #connect > .contain > p:nth-child(2) {
+    font-weight: bolder;
+}
+main > #LeftNav > #connect > .contain > p:nth-child(3) {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+main > #LeftNav > #connect > .contain > p:nth-child(4) {
+
+}
+main > #LeftNav > #Search {
+    width: 150px;
+    height: 300px;
+}
+main > #LeftNav > #Search > .title {
+    width: 100%;
+    height: 80px;
+    color: white;
+    border: 1px solid #01A1FF;
+    background-color: #01A1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > #LeftNav > #Search > .title > .aboutLine {
+    width: 30px;
+    border-bottom: 3px solid white;
+    margin: 5px 0;
+}
+main > #LeftNav > #Search > .title > p {
+    font-size: 12px;
+}
+main > #LeftNav > #Search > .contain {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #01A1FF;
+}
+main > #LeftNav > #Search > .contain > div {
+    width: 120px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 8px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: right;
+}
+main > #LeftNav > #Search > .contain > div > .icon {
+    width: 28px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    color: white;
+    background-color: #01A1FF;
+    cursor: pointer;
+}
+main > #Company {
+    width: 1000px;
+}
+main > #Company > .title {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: -20px;
+}
+main > #Company > .title > .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+main > #Company > .title > .left > h2 {
+    font-weight: normal;
+    border-left: 3px solid #01A1FF;
+    padding-left: 10px;
+}
+main > #Company > .title > .left > p {
+    font-size: 12px;
+    color: dimgray;
+}
+main > #Company > .title > .right {
+    display: flex;
+    justify-content: space-around;
+    color: #6C6C6C;
+    font-size: 14px;
+}
+main > #Company > .title > .right > p:last-child {
+    color: #01A1FF;
+}
+main > #Company > .contain {
+    width: 100%;
+    padding: 30px 0;
+}
+main > #Company > .contain > .conn {
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    color: black;
+}
+main > #Company > .contain > .conn > .message {
+    width: 550px;
+    font-size: 18px;
+}
+main > #Company > .contain > .conn > .message > form > input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    font-size: 18px;
+}
+main > #Company > .contain > .conn > .message > form > textarea {
+    border: 1px solid gray;
+    margin: 10px auto;
+    resize: none;
+}
+main > #Company > .contain > .conn > .contact {
+    width: 450px;
+}
+main > #Company > .contain > .conn > .contact > p {
+    font-size: 18px;
+    color: gray;
+    margin: 20px auto;
+}
+footer {
+    background-color: #01A1FF;
+    color: white;
+}
+footer > #footerTop {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer > #footerTop > #footerLeft {
+    width: 750px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer > #footerTop > #footerLeft > div > .title {
+    font-size: 16px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+footer > #footerTop > #footerLeft > div > div {
+    font-size: 13px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+footer > #footerTop > #footerRight {
+    width: 350px;
+    margin: 50px 0;
+    font-size: 12px;
+    color: white;
+}
+footer > #footerTop > #footerRight > div {
+    width: 300px;
+    margin: 0 auto;
+}
+footer > #footerTop > #footerRight > .top {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+footer > #footerTop > #footerRight > .top > div {
+    height: 30px;
+    width: 140px;
+    border: 1px solid white;
+}
+footer > #footerTop > #footerRight > .mid {
+    width: 290px;
+    height: 130px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+footer > #footerTop > #footerRight > .bot {
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+footer > #footerBottom {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    font-family: "宋体";
+}
